@@ -1,0 +1,245 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StudentHub | Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="dashboard">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="logo">Student<span>Hub.</span></div>
+
+        <nav>
+            <p class="menu-title">MAIN MENU</p>
+
+            <a href="#" class="nav-link active">▦ Dashboard</a>
+            <a href="#" class="nav-link">⌖ Career Roadmaps</a>
+            <a href="#" class="nav-link">▣ Learn Skills</a>
+            <a href="#" class="nav-link">▤ Projects</a>
+            <a href="#" class="nav-link">⌨ Coding Practice</a>
+            <a href="#" class="nav-link">◇ DSA Preparation</a>
+
+            <p class="menu-title">PLACEMENT PREPARATION</p>
+
+            <a href="#" class="nav-link">▦ Aptitude</a>
+            <a href="#" class="nav-link">♧ Soft Skills</a>
+            <a href="#" class="nav-link">♙ Internships & Jobs</a>
+
+            <p class="menu-title">CAREER TOOLS</p>
+
+            <a href="#" class="nav-link">▤ Resume Builder</a>
+            <a href="#" class="nav-link">◎ Portfolio Builder</a>
+            <a href="#" class="nav-link">✧ AI Career Mentor</a>
+        </nav>
+
+        <div class="sidebar-bottom">
+            <a href="#" class="nav-link">⚙ Settings</a>
+            <a href="#" class="nav-link">↪ Logout</a>
+        </div>
+
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="main">
+
+        <!-- TOPBAR -->
+        <header class="topbar">
+
+            <input class="search"
+                   type="search"
+                   placeholder="Search courses, skills, projects...">
+
+            <div class="profile">
+                <div>
+                    <strong>Pavan</strong>
+                    <p style="font-size:12px;color:#8490a5">
+                        Student Account
+                    </p>
+                </div>
+                <div class="avatar">P</div>
+            </div>
+
+        </header>
+
+        <!-- WELCOME -->
+        <section class="welcome">
+            <h1>Welcome back, {StudentName} Ganesh 👋</h1>
+            <p>Keep learning, keep growing. Your career journey starts here.</p>
+        </section>
+
+        <!-- STATS -->
+        <section class="stats">
+
+            <div class="card">
+                <p class="card-label">Learning Progress</p>
+                <h2>68%</h2>
+                <small>↑ Keep going!</small>
+            </div>
+
+            <div class="card">
+                <p class="card-label">Courses Completed</p>
+                <h2>12</h2>
+                <small>↑ 3 this month</small>
+            </div>
+
+            <div class="card">
+                <p class="card-label">Coding Streak</p>
+                <h2>🔥 7 Days</h2>
+                <small>Great consistency!</small>
+            </div>
+
+            <div class="card">
+                <p class="card-label">Projects Built</p>
+                <h2>05</h2>
+                <small>Keep building!</small>
+            </div>
+
+        </section>
+
+        <!-- CONTENT GRID -->
+        <section class="content-grid">
+
+            <!-- ROADMAP -->
+            <div class="card">
+
+                <h3 class="section-title">My Learning Roadmap</h3>
+
+                <div class="roadmap-item">
+                    <div class="roadmap-top">
+                        <strong>HTML & CSS</strong>
+                        <span>100%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar"
+                             style="width:100%"></div>
+                    </div>
+                </div>
+
+                <div class="roadmap-item">
+                    <div class="roadmap-top">
+                        <strong>JavaScript</strong>
+                        <span>70%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar"
+                             style="width:70%"></div>
+                    </div>
+                </div>
+
+                <div class="roadmap-item">
+                    <div class="roadmap-top">
+                        <strong>React.js</strong>
+                        <span>40%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar"
+                             style="width:40%"></div>
+                    </div>
+                </div>
+
+                <div class="roadmap-item">
+                    <div class="roadmap-top">
+                        <strong>Node.js</strong>
+                        <span>15%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar"
+                             style="width:15%"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- CHALLENGE -->
+            <div class="challenge">
+
+                <h3>⚡ Daily Coding Challenge</h3>
+
+                <p>
+                    Challenge yourself every day.
+                    Solve problems, improve your logic
+                    and become a better programmer.
+                </p>
+
+                <button>Start Challenge →</button>
+
+            </div>
+
+        </section>
+
+        <!-- SECOND GRID -->
+        <section class="content-grid">
+
+            <!-- INTERNSHIPS -->
+            <div class="card">
+
+                <h3 class="section-title">
+                    Recommended Internships
+                </h3>
+
+                <div class="opportunity">
+                    <div>
+                        <h4>Frontend Developer Intern</h4>
+                        <p>ABC Technologies · Remote</p>
+                    </div>
+                    <span class="tag">Internship</span>
+                </div>
+
+                <div class="opportunity">
+                    <div>
+                        <h4>Python Developer Intern</h4>
+                        <p>XYZ Solutions · Hybrid</p>
+                    </div>
+                    <span class="tag">Internship</span>
+                </div>
+
+                <div class="opportunity">
+                    <div>
+                        <h4>Web Development Intern</h4>
+                        <p>Tech Company · Remote</p>
+                    </div>
+                    <span class="tag">Internship</span>
+                </div>
+
+            </div>
+
+            <!-- ACTIVITY -->
+            <div class="card">
+
+                <h3 class="section-title">Recent Activity</h3>
+
+                <div class="activity">
+                    ✓ Completed HTML Basics
+                </div>
+
+                <div class="activity">
+                    ✓ Solved 5 Array Problems
+                </div>
+
+                <div class="activity">
+                    ✓ Completed Aptitude Test
+                </div>
+
+                <div class="activity">
+                    ◷ Working on Portfolio Project
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+</body>
+</html>
